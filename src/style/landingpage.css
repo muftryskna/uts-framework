@@ -1,0 +1,116 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/images/bg/main.jpg");
+    background-size: cover;
+  }
+  
+  .intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+  }
+
+  .trending {
+    height: auto;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+  }
+
+.movieWrapper {
+}
+
+.movieImage {
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .images {
+    height: 500px;
+  }
+/* contact */
+  .p__cormorant {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: "tnum" on, "lnum" on;
+    line-height: 29.9px;
+    font-size: 23px;
+  }
+  .app__wrapper_img {
+    flex: 1;
+    width: 100%;
+    size: 3cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  .app__wrapper_info {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .app__bg {
+    background: url("../assets/images/bg/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  .section__padding {
+    padding: 4rem 6rem;
+  }
+
+  /* about */
+  .about {
+    position: relative;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6rem;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.about-us h1 {
+    font-size: 2rem;
+    border-left: 1px solid red;
+    padding-left: 6px;
+}
+
+.about-us p {
+    width: 80%;
+    text-align: justify;
+}
+/* end about */
+
